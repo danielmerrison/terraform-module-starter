@@ -6,7 +6,40 @@ TODO: Description
 ## Usage
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
 
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 3 |
+
+## Providers
+
+No providers.
+
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_example_external_module"></a> [example\_external\_module](#module\_example\_external\_module) | ./modules/external-module | n/a |
+| <a name="module_example_internal_module"></a> [example\_internal\_module](#module\_example\_internal\_module) | ./modules/internal-module | n/a |
+
+## Resources
+
+No resources.
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_name"></a> [name](#input\_name) | Your name | `string` | `"Aristotle"` | no |
+| <a name="input_region"></a> [region](#input\_region) | Default region used by the provider | `string` | `"us-east-2"` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_response"></a> [response](#output\_response) | Sub-module responses |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Development
