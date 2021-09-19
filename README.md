@@ -43,7 +43,7 @@ No resources.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_sample_output"></a> [sample\_output](#output\_sample\_output) | Sub-module responses |
+| <a name="output_response"></a> [response](#output\_response) | Sub-module responses |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Development
