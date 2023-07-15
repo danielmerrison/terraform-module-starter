@@ -1,4 +1,4 @@
-output "sample_output" {
+output "response" {
   value = {
     "this"                     = local.response
     "internal-module-response" = module.example_internal_module.response
